@@ -1,3 +1,6 @@
-basic.forever(function () {
-	
+input.onGesture(Gesture.Shake, function () {
+    振った回数 += 1
+    basic.showNumber(振った回数)
 })
+let 振った回数 = 0
+振った回数 = 0
